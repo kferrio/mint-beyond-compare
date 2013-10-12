@@ -1,0 +1,36 @@
+[Nemo Action]
+
+# The name to show in the menu, locale supported with standard desktop spec.
+# Use %N as an (optional) token to display the simple filename in the label.
+# If multiple are selected, then the arbitrary first selected name will be used.
+# Token is inactive for selection type of Multiple, None and Any (it will be treated literally)
+# **** REQUIRED ****
+Name=Select Left Side...
+
+
+# Tool tip, locale supported (Appears in the status bar)
+# %N can be used as with the Name field, same rules apply
+Comment=Compare the two selected items
+
+# What to run.  Enclose in < > to run an executable that resides in the actions folder.
+# Use %U as a token where to insert a URL list, use %F as a token to insert a file list
+# **** REQUIRED ****
+Exec=<helper.py %F>
+
+# Icon name to use in the menu - must be a theme icon name
+# Do this: sudo ln -s /usr/share/pixmaps/bcompare.png /usr/share/icons/hicolor/16x16/bcompare.png
+Icon-Name=bcomparehalf32
+
+
+# What type selection: [S]ingle, [M]ultiple, Any, NotNone, None (background click), or
+# a number representing how many files must be selected to display.
+# Defaults to Single if this field is missing
+Selection=S
+
+
+# What extensions to display on - this is an array, end with a semicolon
+# Use "dir" for directory selection and "none" for no extension
+# Use "any" by itself, semi-colon-terminated, for any file type
+# Extensions are NOT case sensitive.  jpg will match JPG, jPg, jpg, etc..
+# **** REQUIRED ****
+Extensions=any;
