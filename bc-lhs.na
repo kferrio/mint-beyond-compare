@@ -10,7 +10,7 @@ Name=Select Left Side...
 
 # Tool tip, locale supported (Appears in the status bar)
 # %N can be used as with the Name field, same rules apply
-Comment=Compare the two selected items
+Comment=Select left side for comparison
 
 # What to run.  Enclose in < > to run an executable that resides in the actions folder.
 # Use %U as a token where to insert a URL list, use %F as a token to insert a file list
