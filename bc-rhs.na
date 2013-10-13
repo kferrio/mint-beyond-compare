@@ -1,7 +1,0 @@
-[Nemo Action]
-Name=Compare to LICENSE
-Comment=Select right side for comparison
-Exec=<helper.py %F>
-Icon-Name=bcomparefull32
-Selection=S
-Extensions=any;
