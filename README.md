@@ -32,7 +32,7 @@ Tested With...
 
  Linux Mint 15 (Cinnamon on Olivia)
 
- License
- -------
- MIT
- 
+Legal
+---------------------
+ (C) 2013 Kyle Ferrio
+ Released under the MIT license
