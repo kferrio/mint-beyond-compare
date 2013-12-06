@@ -1,7 +1,7 @@
 [Nemo Action]
 Name=Select Left Side...
 Comment=Select left side for comparison
-Exec=<helper.py %F>
+Exec=<helper.py -l %F>
 Icon-Name=bcomparehalf32
 Selection=S
 Extensions=any;
