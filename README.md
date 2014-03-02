@@ -34,6 +34,6 @@ Tested With...
 
 Legal
 ---------------------
- (C) 2013 Kyle Ferrio
+ (C) 2013
  
  Released under the MIT license
